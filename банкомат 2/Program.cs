@@ -6,8 +6,8 @@ class Program
     {
         decimal balance = 10000;
 
-        while (true)
-        {
+      
+        
             Console.WriteLine("\nДобро пожаловать в банкомат!");
             Console.WriteLine("1. Показать баланс");
             Console.WriteLine("2. Снять деньги");
@@ -42,12 +42,12 @@ class Program
             else if (choice == "3")
             {
                 Console.WriteLine("Спасибо, что воспользовались банкоматом!");
-                break; 
+               
             }
             else
             {
                 Console.WriteLine("Неверный выбор. Попробуйте снова.");
             }
-        }
+        
     }
 }
